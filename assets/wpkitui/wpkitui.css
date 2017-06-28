@@ -1,0 +1,75 @@
+/* This clas should be applied to the body */
+.wpkit-ui {
+overflow-x: hidden;
+}
+
+.wpkit-ui a {
+color: inherit;
+text-decoration: inherit;
+}
+
+/* Navigation bar */
+	.wpkit-ui #wk-nav-main {
+	    background: whitesmoke;
+	    height: 70px;
+		width: 100%;
+		padding-left: 22px;
+		padding-right: 22px;
+	    overflow: hidden; }
+	        .wpkit-ui #wk-nav-main:hover {
+	        overflow: visible;
+	        }
+
+	.wpkit-ui #wk-nav-main .wk-nav-logo,
+	.wpkit-ui #wk-nav-main .wk-menu {
+	height: inherit;
+	}
+
+	.wpkit-ui #wk-nav-main .wk-nav-logo {
+	float: left;
+	}
+
+	@media all and ( min-width: 700px ) {
+
+		.wpkit-ui #wk-nav-main .wk-menu {
+		float: right;
+		}
+
+		    .wpkit-ui #wk-nav-main .wk-menu-item-first {
+		    display: inline-block;
+		    height: inherit;
+		    position: relative;
+		    transition: all .25s linear;}
+		        .wpkit-ui #wk-nav-main .wk-menu-item-first:hover {
+		        background-color: lightgray;
+		        }
+
+		        .wpkit-ui #wk-nav-main .wk-menu-item-first > a {
+		        display: inline-flex;
+		        align-items: center;
+		        height:  inherit;
+		        padding: 0 12px;
+		        }
+
+		.wpkit-ui #wk-nav-main .wk-menu .wk-menu-item-first:hover .wk-submenu {
+		display: initial;
+		opacity: 1;
+		transform: translateY(0);
+		transition: opacity .35s linear, transform .15s linear;
+		}
+
+		    .wpkit-ui #wk-nav-main .wk-menu .wk-menu-item-first .wk-submenu {
+		    position: absolute;
+		    top: 100%;
+		    left: 0;
+		    min-width: 200px;
+		    padding: 22px 12px;
+		    border-top: 1px solid white;
+		    background: whitesmoke;
+		    line-height: 2;
+
+		    opacity: 0;
+		    transform: translateY(-22px);
+		    transform-origin: top;
+		    }
+	}
