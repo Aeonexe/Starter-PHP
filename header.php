@@ -5,16 +5,16 @@
 	$headers = array(
 		'html_class' 	=> 'page',
 		'body_class' 	=> 'home',
-		'title'		=> '',
-		'description'	=> '',
-		'author'		=> '',
-		'itemprop_name'	=> '',
-		'itemprop_desc' 	=> '',
-		'itemprop_image'	=> '',
+		'title'		=> 'Home Page',
+		'description'	=> 'Descripción del sitio para meta etiqueta de descripción',
+		'author'		=> 'Autor del sitio',
+		'itemprop_name'	=> 'Título para schema.org',
+		'itemprop_desc' 	=> 'Descripción para schema.org',
+		'itemprop_image'	=> 'img/og-facebook.png',
 		'creation_date' 	=> '',
 		'revised_date'	=> '',
-		'favicon'		=> '',
-		'appicon'		=> ''
+		'favicon'		=> 'img/favicon.png',
+		'appicon'		=> 'img/favicon.png'
 	);
 
 ?>
@@ -62,7 +62,7 @@
 				<link rel="canonical" href="<?php page_url(); ?>">
 			<!--Style-->
 				<link id="style-reset" type="text/css" rel="stylesheet" media="screen,projection" href="css/reset.css">
-				<link id="stile-wpkit-ui" type="text/css" rel="stylesheet" media="screen,projection" href="assets/wpkitui/wpkitui.css">
+				<!-- <link id="stile-wpkit-ui" type="text/css" rel="stylesheet" media="screen,projection" href="assets/wpkitui/wpkitui.css"> -->
 				<link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
 				<link id="style-font-opensans" type="text/css" rel="stylesheet" media="screen,projection" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
 				<link id="style-main" type="text/css" rel="stylesheet" media="screen,projection" href="style.css">
@@ -70,18 +70,20 @@
 			<!--Script-->
 				<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 			<!-- Assets -->
-				<!--Picnic--
-					<link id="style-picnic" rel="stylesheet" media="screen, projection" href="assets/picnic/picnic.min.css">
-				<!--UiKit-->
-					<link rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.3/css/uikit.min.css">
-					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.3/js/uikit.min.js"></script>
 				<!-- Bootstrap --
 					<link id="style-bootstrap" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 				<!--Flickity-->
 					<link id="style-flickity" rel="stylesheet" media="screen,projection" href="assets/flickity/flickity.css">
 					<script type="text/javascript" src="assets/flickity/flickity.pkgd.min.js"></script>
-				<!--fancybox--
+				<!--Slick-->
+					<link id="style-slick" rel="stylesheet" media="screen,projection" href="assets/slick/slick.css">
+					<link id="style-slick" rel="stylesheet" media="screen,projection" href="assets/slick/slick-theme.css">
+					<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+				<!--WPKit UI 2-->
+					<link id="style-flickity" rel="stylesheet" media="screen,projection" href="assets/wpkitui2/wpkitui.css">
+					<script type="text/javascript" src="assets/wpkitui2/wpkitui.js"></script>
+				<!--fancybox-->
 					<link type="text/css" rel="stylesheet" media="screen,projection" href="assets/fancybox/source/jquery.fancybox.css?v=2.1.5">
 					<link type="text/css" rel="stylesheet" media="screen,projection" href="assets/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5">
 					<link type="text/css" rel="stylesheet" media="screen,projection" href="assets/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7">
@@ -167,5 +169,3 @@
 			</header>
 
 			<main role="main">
-
-<?php } ?>
