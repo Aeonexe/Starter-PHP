@@ -1,6 +1,6 @@
 <?php include( 'functions.php' ); ?>
 
-	<!DOCTYPE html>
+  <!DOCTYPE html>
 	<html lang="es_ES" dir="ltr" class="page">
 		<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
 				<meta charset="UTF-8">
@@ -45,7 +45,7 @@
 				<!-- <link id="stile-wpkit-ui" type="text/css" rel="stylesheet" media="screen,projection" href="assets/wpkitui/wpkitui.css"> -->
 				<!-- <link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css"> -->
 				<link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="<?php site_url(); ?>/fonts/font-awesome/font-awesome.css">
-				<link id="style-font-opensans" type="text/css" rel="stylesheet" media="screen,projection" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+				<!--<link id="style-font-opensans" type="text/css" rel="stylesheet" media="screen,projection" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">-->
 				<link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="<?php site_url(); ?>/fonts/open-sans/open-sans.css">
 				<link id="style-main" type="text/css" rel="stylesheet" media="screen,projection" href="css/style.css">
 			<!--Script-->
