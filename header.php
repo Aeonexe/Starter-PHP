@@ -42,14 +42,12 @@
 			<!--Links-->
 				<link rel="canonical" href="<?php page_url(); ?>">
 			<!--Style-->
-				<link id="style-reset" type="text/css" rel="stylesheet" media="screen,projection" href="css/reset.css">
 				<!-- <link id="stile-wpkit-ui" type="text/css" rel="stylesheet" media="screen,projection" href="assets/wpkitui/wpkitui.css"> -->
 				<!-- <link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css"> -->
 				<link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="<?php site_url(); ?>/fonts/font-awesome/font-awesome.css">
 				<link id="style-font-opensans" type="text/css" rel="stylesheet" media="screen,projection" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
 				<link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="<?php site_url(); ?>/fonts/open-sans/open-sans.css">
-				<link id="style-main" type="text/css" rel="stylesheet" media="screen,projection" href="style.css">
-				<link id="style-theme" type="text/css" rel="stylesheet" media="screen,projection" href="css/theme.css">
+				<link id="style-main" type="text/css" rel="stylesheet" media="screen,projection" href="css/style.css">
 			<!--Script-->
 				<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 			<!-- Assets -->
