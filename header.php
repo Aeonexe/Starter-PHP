@@ -1,25 +1,6 @@
 <?php include( 'functions.php' ); ?>
 
-<?php
-
-	$headers = array(
-		'html_class' 	=> 'page',
-		'body_class' 	=> 'home',
-		'title'		=> 'Home Page',
-		'description'	=> 'Descripción del sitio para meta etiqueta de descripción',
-		'author'		=> 'Autor del sitio',
-		'itemprop_name'	=> 'Título para schema.org',
-		'itemprop_desc' 	=> 'Descripción para schema.org',
-		'itemprop_image'	=> 'img/og-facebook.png',
-		'creation_date' 	=> '',
-		'revised_date'	=> '',
-		'favicon'		=> 'img/favicon.png',
-		'appicon'		=> 'img/favicon.png'
-	);
-
-?>
-
-	<!DOCTYPE html>
+  <!DOCTYPE html>
 	<html lang="es_ES" dir="ltr" class="page">
 		<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
 				<meta charset="UTF-8">
@@ -54,19 +35,19 @@
 				<meta name="distribution" content="global">
 				<meta name="coverage" content="Worldwide">
 			<!--Icons-->
-				<link rel="Shortcut Icon" type="image/ico" href="<?php echo $headers['favicon']; ?>">
-				<!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"><![endif]-->
+				<link rel="Shortcut Icon" type="image/ico" href="<?php echo $headers_static['favicon']; ?>">
+				<!--[if IE]><link rel="shortcut icon" href="<?php echo $headers_static['favicon']; ?>"><![endif]-->
 				<link rel="apple-touch-icon" type="image/png" href="img/apple-touch-icon.png">
 				<link rel="apple-touch-startup-image" type="image/png" href="img/apple-startup.png">
 			<!--Links-->
 				<link rel="canonical" href="<?php page_url(); ?>">
 			<!--Style-->
-				<link id="style-reset" type="text/css" rel="stylesheet" media="screen,projection" href="css/reset.css">
 				<!-- <link id="stile-wpkit-ui" type="text/css" rel="stylesheet" media="screen,projection" href="assets/wpkitui/wpkitui.css"> -->
-				<link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
-				<link id="style-font-opensans" type="text/css" rel="stylesheet" media="screen,projection" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
-				<link id="style-main" type="text/css" rel="stylesheet" media="screen,projection" href="style.css">
-				<link id="style-theme" type="text/css" rel="stylesheet" media="screen,projection" href="css/theme.css">
+				<!-- <link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css"> -->
+				<link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="<?php site_url(); ?>/fonts/font-awesome/font-awesome.css">
+				<!--<link id="style-font-opensans" type="text/css" rel="stylesheet" media="screen,projection" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">-->
+				<link id="style-font-awesome" type="text/css" rel="stylesheet" media="screen,projection" href="<?php site_url(); ?>/fonts/open-sans/open-sans.css">
+				<link id="style-main" type="text/css" rel="stylesheet" media="screen,projection" href="css/style.css">
 			<!--Script-->
 				<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 			<!-- Assets -->
@@ -160,7 +141,7 @@
 		</head>
 
 
-		<body class="home wpkit-ui">
+		<body class="<?php echo $headers['body_class']; ?> wpkit-ui">
 
 			<header>
 
