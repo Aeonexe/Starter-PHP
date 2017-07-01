@@ -19,10 +19,10 @@
 		'revised_date'	=> 'Miércoles, junio 28th, 2017, 4:09 pm'
 	);
 
-include( 'header.php' ); ?>
+include( '../header.php' ); ?>
 
 			<p>Content</p>
 			<button class="wk-button">click</button>
 			<?php page_url(); ?>
 
-<?php include( 'footer.php' ); ?>
+<?php include( '../footer.php' ); ?>
